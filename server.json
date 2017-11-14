@@ -1,0 +1,15 @@
+{
+    "web":{
+        "host":"api.hatrack.dev",
+        "rewrites":{
+            "enable":true
+        },
+        "http":{
+            "port":80
+        }
+    },
+    "app":{
+        "cfengine":"lucee@5.2.4+37"
+    },
+    "name":"api_dev"
+}
